@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "milk-tea" # "air", "aqua", "contrast", "dark", "dirt
 # Site Settings
 locale                   : "zh-TW"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "你的名字的筆記"
+title                    : "D博士的筆記"
 title_separator          : "-"
-subtitle                 : "以你的視角分享設計、技術與生活靈感"
-name                     : "你的名字"
-description              : "記錄你日常的靈感、遠端工作節奏，以及持續學習的心得。"
+subtitle                 : "分享設計、技術與生活靈感"
+name                     : "D博士"
+description              : "記錄日常的靈感、遠端工作節奏，以及持續學習的心得。"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "你的名字"
+  name             : "D博士"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "喜歡分享設計、技術與生活靈感的創作者，這裡放上屬於你的簡介。"
-  location         : "你的城市"
+  location         : "台北"
   email            :
   links:
     - label: "Email"
