@@ -1,0 +1,24 @@
+- key: milk-tea
+  label: Milk Tea
+  description: Creamy neutrals and soft contrast (current default).
+  stylesheet: /assets/css/main.css
+- key: air
+  label: Air
+  description: Cool and calm blues for a light presentation.
+  stylesheet: /assets/css/skin-air.css
+- key: dark
+  label: Dark
+  description: High-contrast inverted palette for night viewing.
+  stylesheet: /assets/css/skin-dark.css
+- key: mint
+  label: Mint
+  description: Fresh greens with subtle accents.
+  stylesheet: /assets/css/skin-mint.css
+- key: neon
+  label: Neon
+  description: Inverted dark palette with vibrant highlights.
+  stylesheet: /assets/css/skin-neon.css
+- key: sunrise
+  label: Sunrise
+  description: Warm oranges and reds with a bright vibe.
+  stylesheet: /assets/css/skin-sunrise.css
