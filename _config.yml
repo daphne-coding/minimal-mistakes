@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "milk-tea" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "lavender" # "air", "aqua", "contrast", "dark", "dirt", "lavender", "neon", "mint", "plum", "sunrise", "tiffany-green"
 
 # Site Settings
 locale                   : "zh-TW"

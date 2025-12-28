@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Lavender skin
+   ========================================================================== */
+
+/* Colors */
+$dark-gray: #251b3d !default;
+$background-color: #f6f3fb !default;
+$text-color: #3a2f61 !default;
+$muted-text-color: mix(#000, $text-color, 20%) !default;
+$primary-color: #9a8cfa !default; /* lavender bloom */
+$border-color: mix(#000, $background-color, 18%) !default;
+$code-background-color: mix(#fff, $background-color, 16%) !default;
+$code-background-color-dark: mix(#000, $background-color, 12%) !default;
+$form-background-color: mix(#fff, $background-color, 12%) !default;
+$footer-background-color: #e7e0f5 !default;
+$link-color: mix(#000, $primary-color, 8%) !default;
+$link-color-hover: mix(#fff, $link-color, 20%) !default;
+$link-color-visited: mix(#000, $link-color, 18%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 18%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 24%) !default;
+
+/* notices */
+$notice-background-mix: 78% !default;
+
+/* lavender syntax highlighting (base16-inspired) */
+$base00: #251b3d !default;
+$base01: #352b58 !default;
+$base02: #4c3b7a !default;
+$base03: #5e4d8d !default;
+$base04: #7665a6 !default;
+$base05: #8e7fc0 !default;
+$base06: #c1b8e0 !default;
+$base07: #f6f3fb !default;
+$base08: #d66b90 !default;
+$base09: #b88ae0 !default;
+$base0a: #c5a8ff !default;
+$base0b: #6bbf8f !default;
+$base0c: #69c5cc !default;
+$base0d: #7fa8ff !default;
+$base0e: #b285ff !default;
+$base0f: #d1a166 !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
