@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Tiffany Blue skin
+   ========================================================================== */
+
+/* Colors */
+$dark-gray: #0f3f4a !default;
+$background-color: #e8f7f6 !default;
+$text-color: #0f3f4a !default;
+$muted-text-color: mix(#000, $text-color, 20%) !default;
+$primary-color: #0abab5 !default; /* tiffany blue */
+$border-color: mix(#000, $background-color, 16%) !default;
+$code-background-color: mix(#fff, $background-color, 14%) !default;
+$code-background-color-dark: mix(#000, $background-color, 10%) !default;
+$form-background-color: mix(#fff, $background-color, 10%) !default;
+$footer-background-color: #d4efef !default;
+$link-color: mix(#000, $primary-color, 10%) !default;
+$link-color-hover: mix(#fff, $link-color, 18%) !default;
+$link-color-visited: mix(#000, $link-color, 16%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 16%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 22%) !default;
+
+/* notices */
+$notice-background-mix: 82% !default;
+
+/* tiffany blue syntax highlighting (base16-inspired) */
+$base00: #0f3f4a !default;
+$base01: #1b5563 !default;
+$base02: #2a6c78 !default;
+$base03: #39848f !default;
+$base04: #58a3a8 !default;
+$base05: #78c2c7 !default;
+$base06: #9ce0e3 !default;
+$base07: #e8f7f6 !default;
+$base08: #d46c7a !default;
+$base09: #0abab5 !default;
+$base0a: #63d6ce !default;
+$base0b: #70c89a !default;
+$base0c: #00c6d7 !default;
+$base0d: #3e9dcc !default;
+$base0e: #b28bd8 !default;
+$base0f: #b48363 !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
