@@ -1,45 +1,45 @@
 /* ==========================================================================
-   Milk Tea skin
+   Tiffany Blue skin (formerly Milk Tea)
    ========================================================================== */
 
 /* Colors */
-$dark-gray: #2f241f !default;
-$background-color: #f4ede1 !default;
-$text-color: #3b2d28 !default;
+$dark-gray: #0f3b3a !default;
+$background-color: #e6f6f4 !default;
+$text-color: #0f3b3a !default;
 $muted-text-color: mix(#000, $text-color, 20%) !default;
-$primary-color: #c88a65 !default; /* caramel milk tea */
+$primary-color: #81d8d0 !default; /* Tiffany Blue */
 $border-color: mix(#000, $background-color, 18%) !default;
-$code-background-color: mix(#fff, $background-color, 16%) !default;
+$code-background-color: mix(#fff, $background-color, 12%) !default;
 $code-background-color-dark: mix(#000, $background-color, 12%) !default;
-$form-background-color: mix(#fff, $background-color, 12%) !default;
-$footer-background-color: #e3d6c5 !default;
-$link-color: mix(#000, $primary-color, 8%) !default;
-$link-color-hover: mix(#fff, $link-color, 20%) !default;
-$link-color-visited: mix(#000, $link-color, 18%) !default;
+$form-background-color: mix(#fff, $background-color, 10%) !default;
+$footer-background-color: #c6ece7 !default;
+$link-color: mix(#000, $primary-color, 10%) !default;
+$link-color-hover: mix(#fff, $link-color, 18%) !default;
+$link-color-visited: mix(#000, $link-color, 16%) !default;
 $masthead-link-color: $text-color !default;
-$masthead-link-color-hover: mix(#000, $text-color, 18%) !default;
-$navicon-link-color-hover: mix(#000, $background-color, 24%) !default;
+$masthead-link-color-hover: mix(#000, $text-color, 16%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 20%) !default;
 
 /* notices */
 $notice-background-mix: 78% !default;
 
-/* milk tea syntax highlighting (base16-inspired) */
-$base00: #2f241f !default;
-$base01: #4a3a32 !default;
-$base02: #6b564c !default;
-$base03: #8a7466 !default;
-$base04: #a89381 !default;
-$base05: #c1ad9a !default;
-$base06: #e3d6c5 !default;
-$base07: #f7f1e8 !default;
-$base08: #d06f57 !default;
-$base09: #c88a65 !default;
-$base0a: #d9b27d !default;
-$base0b: #9fa56b !default;
-$base0c: #7c9a92 !default;
-$base0d: #7b86b3 !default;
-$base0e: #a17aaa !default;
-$base0f: #a46250 !default;
+/* Tiffany Blue-inspired syntax highlighting (base16-inspired) */
+$base00: #0f3b3a !default;
+$base01: #19504d !default;
+$base02: #2f6863 !default;
+$base03: #417c76 !default;
+$base04: #5a968e !default;
+$base05: #74aea6 !default;
+$base06: #bde4dd !default;
+$base07: #e6f6f4 !default;
+$base08: #e67c73 !default;
+$base09: #f5b971 !default;
+$base0a: #f6d88b !default;
+$base0b: #6ac59a !default;
+$base0c: #61c7c2 !default;
+$base0d: #5aa1d8 !default;
+$base0e: #9c7bd8 !default;
+$base0f: #d18862 !default;
 
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
